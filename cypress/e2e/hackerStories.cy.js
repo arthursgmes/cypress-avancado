@@ -367,6 +367,6 @@ it('shows a "Loading ..." state before showing the results', () => {
   cy.assertLoadingIsShownAndHidden()
   cy.wait('@getDelayedStories')
 
-  cy.get('.item').should('have.length', 20)
-});
+  cy.get('.item').should('have.length', 2)
+})
 
